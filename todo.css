@@ -7,7 +7,7 @@ body {
 .todolist,
 .input-div {
     display: grid;
-    grid-template-columns: 30% 20% 30%;
+    grid-template-columns: 30% 5% 30%;
     column-gap: 5%;
     row-gap: 20%;
     vertical-align: center;
