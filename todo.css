@@ -7,12 +7,16 @@ body {
 .todolist,
 .input-div {
     display: grid;
-    grid-template-columns: 30% 15% 25%;
+    grid-template-columns: 30% 30% 30%;
     column-gap: 5%;
     row-gap: 20%;
     vertical-align: center;
+    text-wrap: wrap;
 }
-
+.wrapper{
+    width: 100%;
+    word-wrap: break-word;
+}
 .input-div {
     margin-bottom: 2%;
 }
@@ -33,6 +37,7 @@ body {
     cursor: pointer;
     font-weight: bold;
     border-radius: 5px;
+    padding: 10px 15px;
 }
 
 .del-but {
@@ -45,6 +50,7 @@ body {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.2s, color .2s;
+    padding: 10px 15px;
 }
 
 .del-but:hover {
